@@ -1,0 +1,209 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body
+{
+  background: #FFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+header
+{
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header h1
+{
+  font-size: 4em;
+  font-weight: bold;
+
+}
+
+.link a
+{
+  color: #B20000;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #c94c4c;
+}
+
+p
+{
+  font-size: 15px;
+}
+
+.menu li
+{
+  display: inline;
+  padding: .5em;
+  font-size: 1em;
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+.menu a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.menu
+{
+  margin-top: .5em;
+}
+
+.grid
+{
+  padding-top: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.container p{
+  text-align: justify;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 2em;
+  padding: 1em;
+}
+
+.container img
+{
+  width: auto;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.box2
+{
+  width: 300px;
+  background: #C0C0C0;
+  text-align: center;
+  color: #000;
+  vertical-align: middle;
+  padding-top: 90px;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+
+.box3
+{
+  width: 300px;
+  background: #C0C0C0;
+  text-align: center;
+  color: #000;
+  vertical-align: middle;
+  padding-top: 90px;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+.box5
+{
+  width: 300px;
+  background: #C0C0C0;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 90px;
+  color: #000;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+.box6
+{
+  width: 300px;
+  background: #C0C0C0;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 90px;
+  color: #000;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+img
+{
+ display: block;
+ width: 300px;
+ margin: 0;
+ height: auto;
+}
+
+
+footer
+{
+  margin-bottom: 0;
+  margin-top: 1em;
+  text-align: center;
+  height: auto;
+}
+
+#icons
+{
+  font-size: 2em;
+  padding: .4em;
+  letter-spacing: .4em;
+  line-height: 1em;
+}
+
+.blue
+{
+  text-decoration: none;
+  color: #3232ff;
+}
+
+.fb
+{
+  text-decoration: none;
+  color: #00007f;
+}
+
+.green
+{
+  text-decoration: none;
+  color: #007300;
+}
+
+.mail
+{
+  text-decoration: none;
+  color: #b20000;
+}
+
+.git
+{
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+
+.foot
+{
+  font-size: 10px;
+  text-transform: lowercase;
+}
+
+/*Positioning*/
+.grid
+{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-rows: 140px;;
+  grid-gap: .5em;
+  justify-content: center;
+}
