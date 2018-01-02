@@ -21,7 +21,6 @@ header h1
 {
   font-size: 4em;
   font-weight: bold;
-
 }
 
 .link a
@@ -43,6 +42,13 @@ p
   padding: .5em;
   font-size: 1em;
 }
+
+li:hover
+{
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+
 
 .menu ul{
   list-style-type: none;
@@ -69,10 +75,11 @@ p
 
 .container p{
   text-align: justify;
-  width: 500px;
+  width: 850px;
   margin: 0 auto;
   line-height: 2em;
   padding: 1em;
+  margin-top: 10px;
 }
 
 .container img
