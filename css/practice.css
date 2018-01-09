@@ -71,6 +71,7 @@ li:hover
   margin: 0 auto;
   text-align: center;
   color: #fff;
+  align-items: stretch;
 }
 
 .container p{
@@ -88,20 +89,6 @@ li:hover
   margin: 0 auto;
   padding: 1em;
 }
-
-.box2
-{
-  width: 300px;
-  background: #C0C0C0;
-  text-align: center;
-  color: #000;
-  vertical-align: middle;
-  padding-top: 90px;
-  font-family: "Gill Sans Extrabold", sans-serif;
-  letter-spacing: .2em;
-  font-weight: bold;
-}
-
 
 .box3
 {
@@ -210,7 +197,7 @@ footer
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
-  grid-auto-rows: 140px;;
+
   grid-gap: .5em;
   justify-content: center;
 }
