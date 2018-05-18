@@ -34,7 +34,6 @@ header h1
 p
 {
   font-size: 15px;
-  text-transform: capitalize;
 }
 
 .menu li
@@ -77,6 +76,7 @@ li:hover
 
 .container p{
   text-align: justify;
+  text-transform: capitalize;
   width: 850px;
   margin: 0 auto;
   line-height: 2em;
